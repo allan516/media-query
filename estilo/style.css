@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    background: url('../imagens/fundo-header.jpg') no-repeat center bottom;
+    background-size: cover;
+}
+
+header h1 {
+    height: 150px;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.534);
+    color: white;
+    padding: 30px;
+}
+
+header menu {
+    text-align: center;
+    background-color: gray;
+}
+
+.icon-menu {
+    color: white;
+}
+
+menu .icon-menu:hover {
+    background-color: rgb(226, 226, 226);
+    color: black;
+    cursor: pointer;
+}
+
+ul {
+   list-style: none;
+  display: none;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+}
+
+ul li {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: 1px solid rgba(255, 255, 255, 0.582);
+    list-style: none;
+}
+
+ul li:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+ul a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 10px 15px;
+}
+
+main > article {
+    max-width: 768px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+article h1 {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+article p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 15px;
+}
